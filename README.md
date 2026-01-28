@@ -10,9 +10,11 @@ For contact: johan.severinson@gu.se
 Files:
 
 IBS_matrices.zip
+
 IBS matrices produced by ANGSD.
 
 Protocol_for_Illumina_2b_RAD_Ries_2023.pdf
+
 Lab protocol for library preparations for 2b-RAD.
 
 admixture_all_sites.zip
