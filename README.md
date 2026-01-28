@@ -33,7 +33,7 @@ Files produced by ANGSD, PCAngsd and realSFS to calculate R, B, D*, Ho, He, Fis 
 meta_data.zip  
 Meta data for all samples or samples retained after clone correction.
 
-plor_R.r  
+plot_R.r  
 Function to plot BayeScan results.
 
 plot_admixture_v5_function.R  
