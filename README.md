@@ -9,15 +9,13 @@ For contact: johan.severinson@gu.se
 
 Files:
 
-IBS_matrices.zip
-
+IBS_matrices.zip  
 IBS matrices produced by ANGSD.
 
-Protocol_for_Illumina_2b_RAD_Ries_2023.pdf
-
+Protocol_for_Illumina_2b_RAD_Ries_2023.pdf  
 Lab protocol for library preparations for 2b-RAD.
 
-admixture_all_sites.zip
+admixture_all_sites.zip  
 Files produced by NGSadmix for evaluation of K and for admixture of all sites together.
 
 admixture_each_site.zip
