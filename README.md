@@ -18,29 +18,29 @@ Lab protocol for library preparations for 2b-RAD.
 admixture_all_sites.zip  
 Files produced by NGSadmix for evaluation of K and for admixture of all sites together.
 
-admixture_each_site.zip
+admixture_each_site.zip  
 Files produced by NGSadmix for admixture of sites separately.
 
-bayescan_files.zip
+bayescan_files.zip  
 Files produced by BayeScan for identifying outlier loci. Needed are also vcf files, can be converted from beagle files in calculating_metrics_files.zip.
 
-bioinfo_pipeline_Furcellaria2026.sh
+bioinfo_pipeline_Furcellaria2026.sh  
 Bioinformatics pipeline used to produce bam files and run bioinformatics on cluster.
 
-calculating_metrics_files.zip
+calculating_metrics_files.zip  
 Files produced by ANGSD, PCAngsd and realSFS to calculate R, B, D*, Ho, He, Fis and pi.
 
-meta_data.zip
+meta_data.zip  
 Meta data for all samples or samples retained after clone correction.
 
-plor_R.r
+plor_R.r  
 Function to plot BayeScan results.
 
-plot_admixture_v5_function.R
+plot_admixture_v5_function.R  
 Function to plot admixture.
 
-popgen_analyses_R.R
+popgen_analyses_R.R  
 R script for performing clone correction, PCoA, admixture, test isolation by distance, find outlier loci from BayeScan and the selective sweep, calculate and test diversity metrics and produce maps.
 
-selective_sweep_files.zip
+selective_sweep_files.zip  
 Files produced by PCAngsd for selective sweep.
