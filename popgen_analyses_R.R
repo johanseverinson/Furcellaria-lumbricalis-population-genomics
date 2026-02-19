@@ -30,7 +30,7 @@ samples <- samples$indv
 # adding sample names to everything
 dimnames(IBS)=list(samples,samples)
 
-# ------ hierarchical clustering tree to look for clones, wrong species collections
+# ------ hierarchical clustering tree to look for clones
 hc=hclust(as.dist(IBS),"ave")
 plot(hc,cex=0.5) # clustering of samples by IBS (great to detect clones or closely related individuals)
 # there are a few "low-hanging" groups of closely related individuals
@@ -392,7 +392,7 @@ print(geo.mat)
 geo.dist.site <- as.dist(geo.mat)
 
 library(vegan)
-mantel_res <- mantel(gen.dist.site, geo.dist.site, method = "pearson", permutations = 9999)
+mantel_res <- mantel(gen.dist.site, geo.dist.site, method = "pearson", permutations = 999)
 mantel_res # p=0.042 for cutoff 0141, p=0.551 for cutoff 0149
 
 # Prepare data for plotting
@@ -1846,4 +1846,5 @@ final_plot <- plot_grid(
   rel_widths = c(1, 1))
 
 final_plot # Save as 569 x 673 px for correct dimensions.
+
 
