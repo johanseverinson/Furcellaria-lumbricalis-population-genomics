@@ -33,6 +33,9 @@ Files produced by ANGSD, PCAngsd and realSFS to calculate R, B, D*, Ho, He, Fis 
 meta_data.zip  
 Meta data for all samples or samples retained after clone correction.
 
+ploidy_files.zip
+Output files from HMMploidy and nQuire.
+
 plot_R.r  
 Function to plot BayeScan results.
 
@@ -40,7 +43,7 @@ plot_admixture_v5_function.R
 Function to plot admixture.
 
 popgen_analyses_R.R  
-R script for performing clone correction, PCoA, admixture, test isolation by distance, find outlier loci from BayeScan and the selective sweep, calculate and test diversity metrics and produce maps.
+R script for performing ploidy assessment, clone correction, PCoA, admixture, test isolation by distance, find outlier loci from BayeScan and the selective sweep, calculate and test diversity metrics and produce maps.
 
 selective_sweep_files.zip  
 Files produced by PCAngsd for selective sweep.
