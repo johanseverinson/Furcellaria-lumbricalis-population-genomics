@@ -33,7 +33,7 @@ Files produced by ANGSD, PCAngsd and realSFS to calculate R, B, D*, Ho, He, Fis 
 meta_data.zip  
 Meta data for all samples or samples retained after clone correction.
 
-ploidy_files.zip
+ploidy_files.zip  
 Output files from HMMploidy and nQuire.
 
 plot_R.r  
